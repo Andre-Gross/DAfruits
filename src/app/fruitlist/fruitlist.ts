@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-fruitlist',
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './fruitlist.html',
   styleUrl: './fruitlist.scss'
 })
