@@ -8,7 +8,7 @@
             <div>
                 <p><b>Bewertung:</b></p>
                 <div>
-                    @for(count of [0, 1, 2, 3, 4]; track fruit) {
+                    @for(count of [0, 1, 2, 3, 4]; track count) {
                         @if (fruit.stars < count + 0.25) {
                             <img src="./assets/img/stars/star-empty.svg" alt="" srcset="">
                         } @else if (fruit.stars < count + 0.75){
