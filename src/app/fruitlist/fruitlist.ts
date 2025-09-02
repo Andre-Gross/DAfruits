@@ -16,6 +16,7 @@ export class Fruitlist {
     fontColorGood = 'green';
     fontColorBad = 'red';
 
+
     fruitlist = [
         {
             name: 'Apfel',
@@ -88,4 +89,9 @@ export class Fruitlist {
             ],
         },
     ];
+
+
+    nameLog(name:string) {
+        console.log(name)
+    }
 }
